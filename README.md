@@ -6,12 +6,16 @@ We generated a single-cell transcriptomic catalog of the developing mouse cerebr
 
 ## What you'll find here
 * `class.R`: Additions and modifications to **Shekhar _et al._'s** `class.R` file inititally published [here](https://github.com/broadinstitute/BipolarCell2016) 
-* `E14_processing.R`: A detailed, fully documented summary of the processing steps performed for the E14.5 cortex. 
+* `E14_processing.R`: A detailed, fully documented summary of the processing steps performed for the E14.5 cortex.
 	* Requires `class.R` to access the functions necessary for data analysis
-* `E14_combined_matrix.txt.gz`: The main gene expression matrix. 
+	* All processing steps and parameters for analysis of the P0 cortex were identical to those illustrated in this template
+* `E14_combined_matrix.txt.gz`: The main gene expression matrix for E14.5 cortex.
 	* Rows are genes, columns are cells. 
 	* Each biological replicate is represented here.
 * `E14_tSNE.py`: Code for visualizing the data using `t-SNE`, in Python
+* `P0_combined_matrix.txt.gz`: The main gene expression matrix for P0 cortex.
+        * Rows are genes, columns are cells.
+        * Each biological replicate is represented here.
 
 We also created web-based tools for visualizing our data, these can be found at:
 http://zylkalab.org/data

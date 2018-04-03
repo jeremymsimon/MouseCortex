@@ -14,8 +14,8 @@ We generated a single-cell transcriptomic catalog of the developing mouse cerebr
 	* Each biological replicate is represented here.
 * `E14_tSNE.py`: Code for visualizing the data using `t-SNE`, in Python
 * `P0_combined_matrix.txt.gz`: The main gene expression matrix for P0 cortex.
-        * Rows are genes, columns are cells.
-        * Each biological replicate is represented here.
+	* Rows are genes, columns are cells.
+	* Each biological replicate is represented here.
 
 We also created web-based tools for visualizing our data, these can be found at:
 http://zylkalab.org/data

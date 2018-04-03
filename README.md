@@ -5,9 +5,12 @@ Welcome to the GitHub repository associated with **Loo, Simon _et al._**, "**Sin
 We generated a single-cell transcriptomic catalog of the developing mouse cerebral cortex that includes numerous classes of neurons, progenitors, and glia, their proliferation, migration, and activation states, and their relatedness within and across timepoints. Cell expression profiles stratified neurological disease-associated genes into distinct subtypes. Complex neurodevelopmental processes can be reconstructed with single-cell transcriptomics data, permitting a deeper understanding of cortical development and the cellular origins of brain diseases.
 
 ## What you'll find here
-* `class.R`: Additions and modifications to **Shekhar _et al._'s** `class.R` file published [here](https://github.com/broadinstitute/BipolarCell2016) 
-* `E14_processing.R`: A detailed, fully documented summary of the processing steps performed for the E14.5 cortex. This requires `class.R` to access the functions necessary for data analysis
-* `E14_combined_matrix.txt.gz`: The main gene expression matrix. Rows are genes, columns are cells. Each biological replicate is represented here.
+* `class.R`: Additions and modifications to **Shekhar _et al._'s** `class.R` file inititally published [here](https://github.com/broadinstitute/BipolarCell2016) 
+* `E14_processing.R`: A detailed, fully documented summary of the processing steps performed for the E14.5 cortex. 
+	* Requires `class.R` to access the functions necessary for data analysis
+* `E14_combined_matrix.txt.gz`: The main gene expression matrix. 
+	* Rows are genes, columns are cells. 
+	* Each biological replicate is represented here.
 * `E14_tSNE.py`: Code for visualizing the data using `t-SNE`, in Python
 
 We also created web-based tools for visualizing our data, these can be found at:

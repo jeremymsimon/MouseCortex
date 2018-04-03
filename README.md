@@ -5,9 +5,7 @@ Welcome to the GitHub repository associated with **Loo, Simon _et al._**, "**Sin
 We generated a single-cell transcriptomic catalog of the developing mouse cerebral cortex that includes numerous classes of neurons, progenitors, and glia, their proliferation, migration, and activation states, and their relatedness within and across timepoints. Cell expression profiles stratified neurological disease-associated genes into distinct subtypes. Complex neurodevelopmental processes can be reconstructed with single-cell transcriptomics data, permitting a deeper understanding of cortical development and the cellular origins of brain diseases.
 
 ## What you'll find here
-The code maintained here includes additions and modifications to **Shekhar _et al._'s** `class.R` file published [here](https://github.com/broadinstitute/BipolarCell2016) that we used to identify cell types of the developing mouse cortex
-
-The key steps are implemented in R, and are summarized and documented in the main R markdown file `E14_processing.R`. This requires the user to load `class.R` to access a wide variety of functions for data analysis. 
+The code maintained here includes additions and modifications to **Shekhar _et al._'s** `class.R` file published [here](https://github.com/broadinstitute/BipolarCell2016) that we used to identify cell types of the developing mouse cortex. We include a detailed, fully documented summary of the processing steps performed for the E14.5 cortex in the main R markdown file `E14_processing.R`. This requires the user to load `class.R` to access a wide variety of functions for data analysis. 
 
 We also include code for visualizing the data using `t-SNE`, in Python: `E14_tSNE.py`
 
@@ -39,4 +37,4 @@ http://zylkalab.org/data
 * Prevents the usage of "Dingbats" font class in `ggplot` calls
 
 ## Questions/Issues
-Please direct any questions or issues with the code published here to `jeremy [underscore] simon (at) med __dot__ unc __dot__ edu`
+Please direct any questions or issues with the code published here to `jeremy [underscore] simon (at) med [dot] unc [dot] edu`

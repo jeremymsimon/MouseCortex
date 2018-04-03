@@ -14,7 +14,7 @@ Our web-based tools for visualizing data can be found at:
 http://zylkalab.org/data
 
 
-## Change log compared to Shekhar version:
+### Change log compared to Shekhar version:
 * Added several new slots to S4 object, including "pca.eigenvalues", "sils", and "numclust"
 * Added new function called "perform_refined_clustering", which iteratively runs "doGraph_clustering" to optimize the number of nearest neighbors, then iteratively runs "doGraph_clustering" again to refine the cluster assignments using computed Silhouette widths
 * Computes eigenvalues as part of "doPCA" and stores these values for the permutation test

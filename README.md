@@ -1,5 +1,5 @@
 # MouseCortex
-Welcome to the GitHub repository associated with Loo et al., 2017, "Single-cell transcriptomic catalog of mouse cortical development", bioRxiv 2017
+Welcome to the GitHub repository associated with Loo et al., "Single-cell transcriptomic catalog of mouse cortical development", bioRxiv 2017
 
 The code maintained here includes additions and modifications to Shekhar et al.'s class.R file published here: https://github.com/broadinstitute/BipolarCell2016 that we used to identify cell types of the developing mouse cortex
 

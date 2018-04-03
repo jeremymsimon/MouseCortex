@@ -5,7 +5,7 @@ Welcome to the GitHub repository associated with **Loo _et al._**, "**Single-cel
 We generated a single-cell transcriptomic catalog of the developing mouse cerebral cortex that includes numerous classes of neurons, progenitors, and glia, their proliferation, migration, and activation states, and their relatedness within and across timepoints. Cell expression profiles stratified neurological disease-associated genes into distinct subtypes. Complex neurodevelopmental processes can be reconstructed with single-cell transcriptomics data, permitting a deeper understanding of cortical development and the cellular origins of brain diseases.
 
 ## What you'll find here
-The code maintained here includes additions and modifications to **Shekhar _et al._'s** `class.R` file published here: https://github.com/broadinstitute/BipolarCell2016 that we used to identify cell types of the developing mouse cortex
+The code maintained here includes additions and modifications to **Shekhar _et al._'s** `class.R` file published [here](https://github.com/broadinstitute/BipolarCell2016) that we used to identify cell types of the developing mouse cortex
 
 The key steps are implemented in R, and are summarized and documented in the main R markdown file `E14_processing.R`. This requires the user to load `class.R` to access a wide variety of functions for data analysis. 
 

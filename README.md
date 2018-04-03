@@ -1,22 +1,20 @@
 # MouseCortex
-Welcome to the GitHub repository associated with Loo et al., "Single-cell transcriptomic catalog of mouse cortical development", bioRxiv 2017
+Welcome to the GitHub repository associated with Loo et al., "Single-cell transcriptomic catalog of mouse cortical development", bioRxiv 2017: https://www.biorxiv.org/content/early/2017/10/25/208744
 
 ## Abstract
 We generated a single-cell transcriptomic catalog of the developing mouse cerebral cortex that includes numerous classes of neurons, progenitors, and glia, their proliferation, migration, and activation states, and their relatedness within and across timepoints. Cell expression profiles stratified neurological disease-associated genes into distinct subtypes. Complex neurodevelopmental processes can be reconstructed with single-cell transcriptomics data, permitting a deeper understanding of cortical development and the cellular origins of brain diseases.
 
-
+---
 The code maintained here includes additions and modifications to Shekhar et al.'s class.R file published here: https://github.com/broadinstitute/BipolarCell2016 that we used to identify cell types of the developing mouse cortex
 
 The key steps are implemented in R, and are summarized and documented in the main R markdown file `E14_processing.R`. This requires the user to load `class.R` to access a wide variety of functions for data analysis. 
 
 We also include code for visualizing the data using t-SNE, in Python: `E14_tSNE.py`
 
-Our bioRxiv preprint can be accessed at the following link:
-https://www.biorxiv.org/content/early/2017/10/25/208744
-
-Our web-based tools for visualizing data can be found at:
+We also created web-based tools for visualizing our data, these can be found at:
 http://zylkalab.org/data
 
+---
 
 ### Change log compared to Shekhar version:
 * Added several new slots to S4 object, including `pca.eigenvalues`, `sils`, and `numclust`

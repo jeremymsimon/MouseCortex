@@ -33,12 +33,16 @@ http://zylkalab.org/data
 * SLICER
 * gplots
 
+## Required Python libraries (for t-SNE visualization)
+* scikit-learn
+* matplotlib
+* pandas
 
 ## Change log compared to Shekhar version:
 * Added several new slots to S4 object, including `pca.eigenvalues`, `sils`, and `numclust`
 * Added new function called `perform_refined_clustering`, which iteratively runs `doGraph_clustering` to optimize the number of nearest neighbors, then iteratively runs `doGraph_clustering` again to refine the cluster assignments using computed Silhouette widths
 * Computes eigenvalues as part of `doPCA` and stores these values for the permutation test
-* Adds a legend to tSNE plots
+* Adds a legend to t-SNE plots
 * Modifies the `binomcount.test` function to compute log-fold-change as `(x+1)/(y+1)` to avoid NA/Inf values
 * Adds checks to the `binomcount.test` to ensure that `effect.size` isn't NA
 * Modifies cluster naming on `dot.plot`

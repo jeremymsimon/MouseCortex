@@ -1,7 +1,7 @@
 # MouseCortex
 Welcome to the GitHub repository associated with Loo et al., "Single-cell transcriptomic catalog of mouse cortical development", bioRxiv 2017: https://www.biorxiv.org/content/early/2017/10/25/208744
 
-## Abstract
+### Abstract
 We generated a single-cell transcriptomic catalog of the developing mouse cerebral cortex that includes numerous classes of neurons, progenitors, and glia, their proliferation, migration, and activation states, and their relatedness within and across timepoints. Cell expression profiles stratified neurological disease-associated genes into distinct subtypes. Complex neurodevelopmental processes can be reconstructed with single-cell transcriptomics data, permitting a deeper understanding of cortical development and the cellular origins of brain diseases.
 
 ---

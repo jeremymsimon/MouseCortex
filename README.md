@@ -14,6 +14,19 @@ We also include code for visualizing the data using `t-SNE`, in Python: `E14_tSN
 We also created web-based tools for visualizing our data, these can be found at:
 http://zylkalab.org/data
 
+## Required R libraries
+* genefilter
+* sva
+* igraph
+* ggplot2
+* Matrix
+* gmodels
+* RANN
+* reshape
+* cluster
+* SLICER
+* gplots
+
 
 ## Change log compared to Shekhar version:
 * Added several new slots to S4 object, including `pca.eigenvalues`, `sils`, and `numclust`
@@ -25,3 +38,5 @@ http://zylkalab.org/data
 * Modifies cluster naming on `dot.plot`
 * Prevents the usage of "Dingbats" font class in `ggplot` calls
 
+## Questions/Issues
+Please direct any questions or issues with the code published here to `jeremy [underscore] simon (at) med __dot__ unc __dot__ edu`

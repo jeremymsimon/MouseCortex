@@ -1,5 +1,5 @@
 # MouseCortex
-Welcome to the GitHub repository associated with our recent publication 
+Welcome to the GitHub repository associated with our recent publication  
 **Single-cell transcriptomic analysis of mouse neocortical development**  
 **Loo, Simon _et al._**, _Nature Communications_, 2019: https://www.nature.com/articles/s41467-018-08079-9
 

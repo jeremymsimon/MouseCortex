@@ -1,5 +1,7 @@
 # MouseCortex
-Welcome to the GitHub repository associated with **Loo, Simon _et al._**, "**Single-cell transcriptomic analysis of mouse neocortical development**", _Nature Communications_ 2019: https://www.nature.com/articles/s41467-018-08079-9
+Welcome to the GitHub repository associated with "**Single-cell transcriptomic analysis of mouse neocortical development**"
+**Loo, Simon _et al._**, _Nature Communications_, 2019: 
+https://www.nature.com/articles/s41467-018-08079-9
 
 ## Abstract
 The development of the mammalian cerebral cortex depends on careful orchestration of proliferation, maturation, and migration events, ultimately giving rise to a wide variety of neuronal and non-neuronal cell types. To better understand cellular and molecular processes that unfold during late corticogenesis, we perform single-cell RNA-seq on the mouse cerebral cortex at a progenitor driven phase (embryonic day 14.5) and at birth—after neurons from all six cortical layers are born. We identify numerous classes of neurons, progenitors, and glia, their proliferative, migratory, and activation states, and their relatedness within and across age. Using the cell-type-specific expression patterns of genes mutated in neurological and psychiatric diseases, we identify putative disease subtypes that associate with clinical phenotypes. Our study reveals the cellular template of a complex neurodevelopmental process, and provides a window into the cellular origins of brain diseases.

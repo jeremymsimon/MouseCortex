@@ -18,6 +18,8 @@ The development of the mammalian cerebral cortex depends on careful orchestratio
 * `P0_combined_matrix.txt.gz`: The main gene expression matrix for P0 cortex.
 	* Rows are genes, columns are cells.
 	* Each biological replicate is represented here.
+* `E14_combined_matrix_ClusterAnnotations.txt` and `P0_combined_matrix_ClusterAnnotations.txt`: Lookup tables with cell IDs and final cluster labels
+
 
 We also created web-based tools for visualizing our data, these can be found at:
 http://zylkalab.org/data
